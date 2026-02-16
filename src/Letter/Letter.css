@@ -140,12 +140,23 @@ img.imgBirthday {
 }
 
 @media screen and (min-width: 300px) {
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 374px) {
     .heart {
       top: 54%;
     }
     .heartText {
       top: 58%;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) {
+  @media screen and (max-width: 375px) {
+    .heart {
+      top: 60%;
+    }
+    .heartText {
+      top: 63%;
     }
   }
 }
