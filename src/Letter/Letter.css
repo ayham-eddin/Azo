@@ -160,3 +160,31 @@ img.imgBirthday {
     }
   }
 }
+
+@media screen and (min-width: 390px) {
+  @media screen and (max-width: 390px) {
+    .containerLetter {
+      height: 65vh;
+    }
+    .heart {
+      top: 58%;
+    }
+    .heartText {
+      top: 62%;
+    }
+  }
+}
+
+@media screen and (min-width: 428px) {
+  @media screen and (max-width: 428px) {
+    .containerLetter {
+      height: 68vh;
+    }
+    .heart {
+      top: 57%;
+    }
+    .heartText {
+      top: 60%;
+    }
+  }
+}
