@@ -125,20 +125,6 @@ img.imgBirthday {
   font-family: "American Typewriter";
 }
 
-@media screen and (min-width: 800px) {
-  @media screen and (max-width: 800px) {
-    .containerLetter {
-      margin: 10rem;
-    }
-    .heart {
-      top: 70%;
-    }
-    .heartText {
-      top: 73%;
-    }
-  }
-}
-
 @media screen and (min-width: 300px) {
   @media screen and (max-width: 374px) {
     .heart {
@@ -188,33 +174,32 @@ img.imgBirthday {
     }
   }
 }
-
-@media screen and (min-width: 844px) {
-  @media screen and (max-width: 844px) {
+@media screen and (min-width: 700px) {
+  @media screen and (max-width: 799px) {
     .containerLetter {
       height: 150vh;
-      padding-top: 25px;
+      padding-top: 75px;
     }
     .heart {
-      top: 100%;
+      top: 130%;
     }
     .heartText {
-      top: 104%;
+      top: 136%;
     }
   }
 }
 
-@media screen and (min-width: 926px) {
-  @media screen and (max-width: 926px) {
+@media screen and (min-width: 800px) {
+  @media screen and (max-width: 844px) {
     .containerLetter {
-      height: 150vh;
-      padding-top: 25px;
+      height: 100vh;
+      padding-top: 120px;
     }
     .heart {
-      top: 100%;
+      top: 106%;
     }
     .heartText {
-      top: 104%;
+      top: 108%;
     }
   }
 }
