@@ -42,7 +42,6 @@ const Letter = ({}: LetterProps) => {
 
   return (
     <div className="containerLetter">
-      {/* IMPORTANT: this is what makes audioRef.current not null */}
       <audio ref={audioRef} src="/song.mp3" preload="auto" />
 
       <div
@@ -51,8 +50,8 @@ const Letter = ({}: LetterProps) => {
       >
         <div className="envelope">
           <div className="letter">
-            {/* Use imported image (recommended for src/assets in Vite) */}
-            <img src="/hero.png" alt="birthday" className="imgBirthday" />
+            {/* Only show the photo, no text */}
+            <img src="/hero.png" alt="hero photo" className="imgBirthday" />
           </div>
         </div>
 

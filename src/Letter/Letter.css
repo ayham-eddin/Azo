@@ -1,8 +1,8 @@
 .containerLetter {
+  padding-top: 50px;
   height: 80vh;
   display: grid;
   place-items: center;
-
 }
 .containerLetter > .envelope-wrapper {
   background: #4d4a4a;
@@ -40,16 +40,12 @@
   position: absolute;
   right: 20%;
   bottom: 0;
-  width: 44%;
-  height: 72%;
+  width: 56%;
+  height: 85%;
   transition: all 1s ease-in-out;
-  padding: 20px 10px;
-  border: 10px solid transparent;
+  padding: 10px 5px;
   text-align: center;
   background-color: #f8f5de;
-  background-image: linear-gradient(to right, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
-  box-shadow: inset 0 0 75px rgba(255,210,0,0.3), inset 0 0 20px rgba(255,210,0,0.4), inset 0 0 30px rgba(220,120,0,0.8);
-  color: rgba(0,0,0,0.5);
   letter-spacing: 0.05em;
 }
 
@@ -92,7 +88,7 @@
   z-index: 0;
 }
 .flap > .envelope > .letter {
-  bottom: 150px;
+  bottom: 200px;
   transform: scale(1.5);
   transition-delay: 1s;
 }
@@ -102,9 +98,14 @@
 }
 
 img.imgBirthday {
-  max-height: 6vh;
-  margin: auto;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  box-shadow: 0 0 25px rgba(255, 100, 100, 0.8);
+  object-fit: cover;
 }
+
 .heartText {
   display: flex;
   color: white;
@@ -118,24 +119,33 @@ img.imgBirthday {
   height: 15px;
   z-index: 4;
 }
-.textFotter{
+.textFotter {
   display: flex;
   justify-content: center;
   font-family: "American Typewriter";
-
 }
 
 @media screen and (min-width: 800px) {
   @media screen and (max-width: 950px) {
-  .containerLetter {
-    margin: 10rem;
+    .containerLetter {
+      margin: 10rem;
+    }
+    .heart {
+      top: 70%;
+    }
+    .heartText {
+      top: 73%;
+    }
+  }
+}
 
-  }
-  .heart {
-    top: 110%;
-  }
-  .heartText {
-    top: 115%;
-  }
+@media screen and (min-width: 300px) {
+  @media screen and (max-width: 400px) {
+    .heart {
+      top: 54%;
+    }
+    .heartText {
+      top: 58%;
+    }
   }
 }
