@@ -51,12 +51,6 @@ const Letter = ({}: LetterProps) => {
       >
         <div className="envelope">
           <div className="letter">
-            <div className="text">
-              <strong>azo</strong>
-              <p>azo</p>
-              <p className="textFotter">azo, keep smiling ☀️ 🎈</p>
-            </div>
-
             {/* Use imported image (recommended for src/assets in Vite) */}
             <img src="/hero.png" alt="birthday" className="imgBirthday" />
           </div>
