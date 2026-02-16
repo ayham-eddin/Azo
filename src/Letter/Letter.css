@@ -126,7 +126,7 @@ img.imgBirthday {
 }
 
 @media screen and (min-width: 800px) {
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 800px) {
     .containerLetter {
       margin: 10rem;
     }
@@ -185,6 +185,36 @@ img.imgBirthday {
     }
     .heartText {
       top: 60%;
+    }
+  }
+}
+
+@media screen and (min-width: 844px) {
+  @media screen and (max-width: 844px) {
+    .containerLetter {
+      height: 150vh;
+      padding-top: 25px;
+    }
+    .heart {
+      top: 100%;
+    }
+    .heartText {
+      top: 104%;
+    }
+  }
+}
+
+@media screen and (min-width: 926px) {
+  @media screen and (max-width: 926px) {
+    .containerLetter {
+      height: 150vh;
+      padding-top: 25px;
+    }
+    .heart {
+      top: 100%;
+    }
+    .heartText {
+      top: 104%;
     }
   }
 }
