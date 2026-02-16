@@ -42,7 +42,7 @@ const Letter = ({}: LetterProps) => {
 
   return (
     <div className="containerLetter">
-      <audio ref={audioRef} src="/song.mp3" preload="auto" />
+      <audio ref={audioRef} src="./song.mp3" preload="auto" />
 
       <div
         className={`envelope-wrapper ${isOpen ? "flap" : ""}`}
@@ -51,7 +51,7 @@ const Letter = ({}: LetterProps) => {
         <div className="envelope">
           <div className="letter">
             {/* Only show the photo, no text */}
-            <img src="/hero.png" alt="hero photo" className="imgBirthday" />
+            <img src="./hero.png" alt="hero photo" className="imgBirthday" />
           </div>
         </div>
 
